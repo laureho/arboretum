@@ -11,7 +11,7 @@
 # Created:  01/05/2020
 #-------------------------------------------------------------------------------
 
-EXPORT_PATH = '/media/quantumjot/Data/movie'
+EXPORT_PATH = '/media/LH/data/Analysis/BayesianTracker/arboretum'
 
 
 import os
@@ -132,7 +132,8 @@ def build_plugin_v2(viewer,
 
             pts_layer = viewer.add_points(loc,
                                           name=new_layer_name('Localizations'),
-                                          face_color='b')
+                                          size=5, # (tllh) added
+                                          face_color='y') # (tllh) orig: 'b'
     def add_track_layer():
         """ add a track layer """
         if arbor.tracks is not None:

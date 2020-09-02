@@ -57,7 +57,7 @@
           "eta": 1e-10,
           "theta_dist": 20.0,
           "theta_time": 5.0,
-          "dist_thresh": 40,
+          "dist_thresh": 30, # (tllh) orig: 40
           "time_thresh": 2,
           "apop_thresh": 5,
           "segmentation_miss_rate": 0.1,
